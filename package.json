@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.8.1",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.72.0",
+    "uuid": "^11.0.3"
+  },
+  "type": "module"
+}
