@@ -17,6 +17,7 @@ const sessionSchema = new mongoose.Schema({
     tag: { type: String, default: "manual-register" },
 });
 
+sessionSchema.index({ userId: 1, sessionId: 1 });
 
 // define User Schema
 const userSchema = new mongoose.Schema({

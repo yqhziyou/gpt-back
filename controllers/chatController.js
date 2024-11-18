@@ -1,6 +1,5 @@
 import generateAIResponse from "../services/chatService.js";
 import { verifyUser } from "../modules/validate.js";
-import { Session } from "../models/session.js"; // 假设你的模型在 sessionModel.js 中
 import { v4 as uuidv4 } from 'uuid'; // 用于生成随机 UUID
 
 const messageHandler = async (userID, sessionID, userMessage, selectedModel = "gpt-4o-mini") => {
